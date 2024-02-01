@@ -5,24 +5,27 @@
 
 .header div a img{
   display: inline-block; 
-  height: 40px;
-  width: 50px;
+  height: 5rem;
+  width: auto;
 }
 img[src="img/Logo.png"] {
-  width: 20px;
+  width: 1.3em;
   height: auto; 
 }
 .header h5, .header a {
   display: inline-block; 
 }
+.logo-text {
+  font-size: 1.5em;
+}
 .main, .image-banner  {
   background-color: lightgrey; 
   text-align: center;
-  height:225px;
+  height: auto;
 }
 img[src="img/Banner.png"]{
-width:75%;
-height:225px;
+width: 75rem;
+height: 1.5fr;
 }
 .main, .main-container{
   background-color: white;
