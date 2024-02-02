@@ -49,7 +49,7 @@ img[src="img/Banner.png"] {
 }
 
 .site-footer {
-  background-color: lightgray;
+  background-color: rgb(32, 47, 51);
   padding: 20px;
   text-align: center;
 }
@@ -66,4 +66,34 @@ img[src="img/Banner.png"] {
 .footer-content img {
   width: 100px;
   height: auto;
+}
+
+.do-image {
+  height: 5em;
+  width: auto;
+}
+
+.updates-image {
+  height: 15em;
+  width: 20em;
+}
+
+.projects-image {
+  height: 15em;
+  width: 20em;
+}
+
+.company-image {
+  height: 7.5em;
+  width: 11.25em;
+}
+
+.insight-1,
+.insight-2 {
+  height: 15em;
+  width: auto;
+}
+
+.footer-content h4 {
+  color: white;
 }
