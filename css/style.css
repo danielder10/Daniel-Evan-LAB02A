@@ -37,21 +37,54 @@ img[src="img/Logo.png"] {
   background-color: lightgrey;
   text-align: center;
   height: auto;
+  position: relative;
 }
 
 img[src="img/Banner.png"] {
   width: 75rem;
   height: auto;
+  position: relative;
+}
+.banner-link1,
+.banner-link2,
+.banner-link3 {
+  position: absolute; 
 }
 
+.banner-link1 {
+  top: 30%; 
+  left: 25%; 
+}
+
+.banner-link2 {
+  top: 39%; 
+  left: 25%; 
+}
+
+.banner-link3 {
+  top: 48%; 
+  left: 25%; 
+}
+
+.link-image1{
+  width: 10rem;
+  height: 3rem;
+}
+.link-image2{
+  width: 11rem;
+  height: 3rem;
+}
+.link-image3{
+  width: 12rem;
+  height: 3rem;
+}
 .main-content,
 .content-container {
   background-color: white;
   height: auto;
 }
-
 .site-footer {
-  background-color: rgb(32, 47, 51);
+  background-color: #16242f;
   padding: 20px;
   text-align: center;
 }
@@ -98,4 +131,33 @@ img[src="img/Banner.png"] {
 
 .footer-content h4 {
   color: white;
+}
+.footer-content,
+.author-section{
+  display: block;
+  text-align: left;
+}
+.footer-content,
+.about-section{
+  display: inline-block;
+  margin: 4rem;
+  text-align: center;
+}
+.footer-content,
+.photos-section{
+  display: inline-block;
+  margin: 4rem;
+  text-align: center;
+}
+.footer-content,
+.tweets-section{
+  display: inline-block;
+  margin: 4rem;
+  text-align: center;
+}
+.footer-content,
+.newsletter-section{
+  display: inline-block;
+  margin: 4rem;
+  text-align: center;
 }
