@@ -1,15 +1,15 @@
-
-.header {
+.site-header {
   text-align: center;
 }
 
-.logo,
-.header-links {
+.site-title,
+.header-nav {
   display: inline-block;
   vertical-align: middle;
 }
 
-.header div a img {
+.header-nav a img,
+.nav-icon {
   display: block;
   height: 5rem;
   width: auto;
@@ -20,44 +20,50 @@ img[src="img/Logo.png"] {
   height: auto;
 }
 
-.logo-text,
-.header a {
+.site-title,
+.nav-item {
   display: inline-block;
   vertical-align: middle;
 }
 
-.logo-text {
+.site-title {
   font-size: 1.5em;
 }
-.main, .image-banner  {
-  background-color: lightgrey; 
+
+.main-content,
+.banner {
+  background-color: lightgrey;
   text-align: center;
   height: auto;
 }
-img[src="img/Banner.png"]{
-width: 75rem;
-height: 1.5fr;
+
+img[src="img/Banner.png"] {
+  width: 75rem;
+  height: auto;
 }
-.main, .main-container{
+
+.main-content,
+.content-container {
   background-color: white;
-  height:auto;
-}
-.footer {
-  background-color: lightgray; 
-  padding: 20px; 
-  text-align: center; 
+  height: auto;
 }
 
-.footer-container {
-  display: flex; 
-  justify-content: space-around; 
+.site-footer {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
 }
 
-.footer h4 {
-  margin-bottom: 10px; 
+.footer-content {
+  display: flex;
+  justify-content: space-around;
 }
 
-.footer img {
-  width: 100px; 
+.footer-content h4 {
+  margin-bottom: 10px;
+}
+
+.footer-content img {
+  width: 100px;
   height: auto;
 }
