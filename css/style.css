@@ -1,33 +1,35 @@
 .site-header {
   text-align: center;
+  vertical-align: center;
 }
 
 .site-title,
 .header-nav {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .header-nav a img,
 .nav-icon {
   display: block;
-  height: 5rem;
-  width: auto;
+  height: 6rem;
+  width: 7rem;
 }
 
 img[src="img/Logo.png"] {
   width: 1.3em;
   height: auto;
+  vertical-align: bottom;
 }
 
 .site-title,
 .nav-item {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
-
 .site-title {
-  font-size: 1.5em;
+  font-size: 1em;
+  vertical-align: bottom;
 }
 
 .main-content,
