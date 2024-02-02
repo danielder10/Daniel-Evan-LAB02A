@@ -1,20 +1,31 @@
 
 .header {
-  text-align: center; 
+  text-align: center;
 }
 
-.header div a img{
-  display: inline-block; 
+.logo,
+.header-links {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header div a img {
+  display: block;
   height: 5rem;
   width: auto;
 }
+
 img[src="img/Logo.png"] {
   width: 1.3em;
-  height: auto; 
+  height: auto;
 }
-.header h5, .header a {
-  display: inline-block; 
+
+.logo-text,
+.header a {
+  display: inline-block;
+  vertical-align: middle;
 }
+
 .logo-text {
   font-size: 1.5em;
 }
