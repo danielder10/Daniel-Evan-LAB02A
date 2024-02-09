@@ -1,71 +1,53 @@
-.site-header {
-  text-align: center;
-  vertical-align: center;
+
+.header {
+  text-align: center; 
 }
 
-.site-title,
-.header-nav {
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.header-nav a img,
-.nav-icon {
-  display: block;
-  height: 6rem;
-  width: 7rem;
+.header div a img{
+  display: inline-block; 
+  height: 5rem;
+  width: auto;
 }
 
 img[src="img/Logo.png"] {
   width: 1.3em;
-  height: auto;
-  vertical-align: bottom;
+  height: auto; 
 }
-
-.site-title,
-.nav-item {
-  display: inline-block;
-  vertical-align: bottom;
+.header h5, .header a {
+  display: inline-block; 
 }
-.site-title {
-  font-size: 1em;
-  vertical-align: bottom;
+.logo-text {
+  font-size: 1.5em;
 }
-
-.main-content,
-.banner {
-  background-color: lightgrey;
+.main, .image-banner  {
+  background-color: lightgrey; 
   text-align: center;
   height: auto;
 }
-
-img[src="img/Banner.png"] {
-  width: 75rem;
-  height: auto;
+img[src="img/Banner.png"]{
+width: 75rem;
+height: 1.5fr;
 }
-
-.main-content,
-.content-container {
+.main, .main-container{
   background-color: white;
-  height: auto;
+  height:auto;
+}
+.footer {
+  background-color: lightgray; 
+  padding: 20px; 
+  text-align: center; 
 }
 
-.site-footer {
-  background-color: lightgray;
-  padding: 20px;
-  text-align: center;
+.footer-container {
+  display: flex; 
+  justify-content: space-around; 
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-around;
+.footer h4 {
+  margin-bottom: 10px; 
 }
 
-.footer-content h4 {
-  margin-bottom: 10px;
-}
-
-.footer-content img {
-  width: 100px;
+.footer img {
+  width: 100px; 
   height: auto;
 }
