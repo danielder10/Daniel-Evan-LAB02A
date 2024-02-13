@@ -1,53 +1,165 @@
-
-.header {
-  text-align: center; 
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+body.metrolics-body {
+  margin: 0;
 }
 
-.header div a img{
-  display: inline-block; 
-  height: 5rem;
-  width: auto;
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ==========================================================================
+   Header Styles
+   ========================================================================== */
+.site-header {
+    text-align: center;
+    vertical-align: center;
+}
+
+.site-title, .header-nav {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.header-nav a img, .nav-icon {
+    display: block;
+    height: 6rem;
+    width: 7rem;
+}
+
+.site-title, .nav-item {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.site-title {
+    font-size: 1em;
+    vertical-align: bottom;
 }
 
 img[src="img/Logo.png"] {
-  width: 1.3em;
-  height: auto; 
+    width: 1.3em;
+    height: auto;
+    vertical-align: bottom;
 }
-.header h5, .header a {
-  display: inline-block; 
-}
-.logo-text {
-  font-size: 1.5em;
-}
-.main, .image-banner  {
-  background-color: lightgrey; 
+
+/* ==========================================================================
+   Main Content Styles
+   ========================================================================== */
+.main-content {
   text-align: center;
-  height: auto;
-}
-img[src="img/Banner.png"]{
-width: 75rem;
-height: 1.5fr;
-}
-.main, .main-container{
-  background-color: white;
-  height:auto;
-}
-.footer {
-  background-color: lightgray; 
-  padding: 20px; 
-  text-align: center; 
+  width: 100%;
 }
 
-.footer-container {
-  display: flex; 
-  justify-content: space-around; 
+.banner {
+    background-color: lightgrey;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
-.footer h4 {
-  margin-bottom: 10px; 
+img[src="img/Banner.png"] {
+    width: 70%;
+    height: auto;
+    position: relative;
+    max-width: 100%;
 }
 
-.footer img {
-  width: 100px; 
-  height: auto;
+.link-images {
+    position: absolute;
+    top: 30%; /* Adjust based on your design */
+    left: 25%; /* Adjust based on your design */
+    text-align: left;
+}
+
+.link-image1, .link-image2, .link-image3 {
+    width: 100px; /* Fixed width */
+    height: 150px; /* Fixed height */
+}
+
+
+.link-image1, .link-image2, .link-image3 {
+    width: auto;
+    height: 3.2rem;
+}
+
+.highlight {
+  color: rgb(97, 215, 255);
+}
+
+.content-container {
+    background-color: white;
+    height: auto;
+}
+
+/* ==========================================================================
+   Section Styles (Do, Updates, Projects, Insights, Companies)
+   ========================================================================== */
+.do-image, .updates-image, .projects-image, .company-image, .insight-1, .insight-2 {
+    width: auto;
+    height: auto; 
+}
+
+/* Specific image sizes */
+.do-image { height: 5em; }
+.updates-image, .projects-image { height: 15em; width: 20em; }
+.company-image { height: 7.5em; width: 11.25em; }
+.insight-1, .insight-2 { height: 15em; }
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; 
+}
+
+.grid-container .do-subsection {
+  flex: 1 1 calc(25% - 2rem);
+  box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+  .grid-container .do-subsection {
+    flex: 1 1 100%;
+  }
+}
+
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+.site-footer {
+    background-color: #16242f;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-content img {
+    width: 100px;
+    height: auto;
+}
+
+.author-section, .about-section, .photos-section, .tweets-section, .newsletter-section {
+    display: inline-block;
+    margin: 4rem;
+    text-align: center;
+}
+
+.author-section {
+    text-align: left;
 }
