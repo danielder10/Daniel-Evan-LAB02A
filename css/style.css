@@ -1,8 +1,12 @@
 /* ==========================================================================
    Global Styles
    ========================================================================== */
-   body.metrolics-body {
+body.metrolics-body {
+  margin: 0;
+}
 
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
@@ -48,9 +52,15 @@ img[src="img/Logo.png"] {
 /* ==========================================================================
    Main Content Styles
    ========================================================================== */
-.main-content, .banner {
+.main-content {
+  text-align: center;
+  width: 100%;
+}
+
+.banner {
     background-color: lightgrey;
     text-align: center;
+    width: 100%;
     height: auto;
     position: relative;
 }
@@ -59,19 +69,29 @@ img[src="img/Banner.png"] {
     width: 70%;
     height: auto;
     position: relative;
+    max-width: 100%;
 }
 
-.banner-link1, .banner-link2, .banner-link3 {
+.link-images {
     position: absolute;
+    top: 30%; /* Adjust based on your design */
+    left: 25%; /* Adjust based on your design */
+    text-align: left;
 }
 
-.banner-link1 { top: 30%; left: 25%; }
-.banner-link2 { top: 39%; left: 25%; }
-.banner-link3 { top: 48%; left: 25%; }
+.link-image1, .link-image2, .link-image3 {
+    width: 100px; /* Fixed width */
+    height: 150px; /* Fixed height */
+}
+
 
 .link-image1, .link-image2, .link-image3 {
     width: auto;
-    height: 3rem;
+    height: 3.2rem;
+}
+
+.highlight {
+  color: rgb(97, 215, 255);
 }
 
 .content-container {
@@ -93,8 +113,21 @@ img[src="img/Banner.png"] {
 .company-image { height: 7.5em; width: 11.25em; }
 .insight-1, .insight-2 { height: 15em; }
 
-.description {
-  
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; 
+}
+
+.grid-container .do-subsection {
+  flex: 1 1 calc(25% - 2rem);
+  box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+  .grid-container .do-subsection {
+    flex: 1 1 100%;
+  }
 }
 
 /* ==========================================================================
