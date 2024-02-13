@@ -74,14 +74,14 @@ img[src="img/Banner.png"] {
 
 .link-images {
     position: absolute;
-    top: 30%; /* Adjust based on your design */
-    left: 25%; /* Adjust based on your design */
+    top: 30%;
+    left: 25%;
     text-align: left;
 }
 
 .link-image1, .link-image2, .link-image3 {
-    width: 100px; /* Fixed width */
-    height: 150px; /* Fixed height */
+    width: 100px; 
+    height: 150px; 
 }
 
 
