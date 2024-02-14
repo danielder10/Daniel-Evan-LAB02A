@@ -14,7 +14,7 @@
     --footer-line-yellow: yellow;
     --footer-line-blue: blue;
     --white-text: white; 
-
+  
   }
   
   /* ==========================================================================
@@ -150,7 +150,7 @@
     .site-footer {
       background-color: var(--footer-background-color);
       text-align: center;
-      height: 39rem !important;
+      height: 39.5rem !important;
       padding-bottom:0 !important;
       grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
       margin-top: 2rem;
@@ -168,7 +168,7 @@
       width: 6.25rem;
       height: auto;
     }
-    .about-section, .photos-section, .tweets-section, .newsletter-section {
+    .photos-section, .tweets-section, .newsletter-section {
       display: none;
     }
     .author-section {
@@ -204,7 +204,7 @@
       border-width: 0.1rem !important;
     }
     .social-media-grid {
-      display: grid;
+      display: grid !important;
       grid-template-columns: repeat(5, auto);
       justify-content: center;
       align-items: center;
@@ -237,6 +237,9 @@
       margin: 0;
       color: var(--white-text);
     }
+    .tweets-title{
+        display:none;
+    }
     .bottom-image {
       .bottom-image {
      width: 50% !important;
@@ -244,9 +247,9 @@
      bottom: 0;
      left: 25%;
      margin-bottom:0 !important;
-}
+  }
     }
-    .footer-line-red, .footer-line-green, .footer-line-yellow, .footer-line-blue {
+    .footer-line-red, .footer-line-yellow, .footer-line-blue {
       position: relative;
       width:60% !important;
       height: 3px;
@@ -261,6 +264,7 @@
     }
     .footer-line-green {
       border-bottom: 3px solid var(--footer-line-green);
+      display:none;
     }
     .footer-line-yellow {
       border-bottom: 3px solid var(--footer-line-yellow);
@@ -283,6 +287,7 @@
     }
     .footer-line-color-green::after {
       border-color: transparent transparent var(--footer-line-green) transparent;
+      display:none;
     }
     .footer-line-color-yellow::after {
       border-color: transparent transparent var(--footer-line-yellow) transparent;
@@ -291,7 +296,11 @@
       border-color: transparent transparent var(--footer-line-blue) transparent;
     }
   }
-  
+  .about-title,
+  .footer-line-green,
+  .footer-line-color-green {
+    display: none;
+  }
   /* ==========================================================================
   Tablet Styles
   ========================================================================== */
@@ -442,9 +451,6 @@
     .footer-content img {
       width: 6.25rem;
       height: auto;
-    }
-    .about-section, .photos-section, .tweets-section, .newsletter-section {
-      display: none;
     }
     .author-section {
       display: flex;
@@ -667,14 +673,9 @@
     .company-image {
       height: 7.5em;
       width: 11.25em;
-      display: none;
-    }
-    .companies-title, .insights-title {
-      display: none;
     }
     .insight-1, .insight-2 {
       height: 15em;
-      display: none;
     }
     .site-footer {
       background-color: var(--footer-background-color);
@@ -696,9 +697,6 @@
     .footer-content img {
       width: 6.25rem;
       height: auto;
-    }
-    .about-section, .photos-section, .tweets-section, .newsletter-section {
-      display: none;
     }
     .author-section {
       display: flex;
@@ -725,6 +723,7 @@
       border-top: 0.1875rem solid var(--line-break-color);
       margin-top: 1.25rem;
       margin-bottom: 1.25rem;
+      display: none;
     }
     .social-media-grid {
       display: grid;
