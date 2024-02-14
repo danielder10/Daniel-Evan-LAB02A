@@ -647,14 +647,9 @@ Desktop Styles
   .company-image {
     height: 7.5em;
     width: 11.25em;
-    display: none;
-  }
-  .companies-title, .insights-title {
-    display: none;
   }
   .insight-1, .insight-2 {
     height: 15em;
-    display: none;
   }
   .site-footer {
     background-color: var(--footer-background-color);
@@ -676,9 +671,6 @@ Desktop Styles
   .footer-content img {
     width: 6.25rem;
     height: auto;
-  }
-  .about-section, .photos-section, .tweets-section, .newsletter-section {
-    display: none;
   }
   .author-section {
     display: flex;
@@ -705,6 +697,7 @@ Desktop Styles
     border-top: 0.1875rem solid var(--line-break-color);
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
+    display: none;
   }
   .social-media-grid {
     display: grid;
