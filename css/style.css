@@ -797,4 +797,9 @@
     .footer-line-color-blue::after {
       border-color: transparent transparent var(--footer-line-blue) transparent;
     }
+    .about-title,
+  .footer-line-green,
+  .footer-line-color-green {
+    display: block;
   }
+}
