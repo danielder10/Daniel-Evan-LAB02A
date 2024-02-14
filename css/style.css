@@ -245,53 +245,8 @@
      left: 25%;
      margin-bottom:0 !important;
 }
-    }
-    .footer-line-red, .footer-line-green, .footer-line-yellow, .footer-line-blue {
-      position: relative;
-      width:60% !important;
-      height: 3px;
-      margin:12%;
-      border-width: 0.1rem !important;
-    }
-    .footer-line-red, .footer-line-color-red::after {
-      margin-bottom: 1rem;
-    }
-    .footer-line-red {
-      border-bottom: 3px solid var(--footer-line-red);
-    }
-    .footer-line-green {
-      border-bottom: 3px solid var(--footer-line-green);
-    }
-    .footer-line-yellow {
-      border-bottom: 3px solid var(--footer-line-yellow);
-    }
-    .footer-line-blue {
-      border-bottom: 3px solid var(--footer-line-blue);
-    }
-    .footer-line-color-red::after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: calc(0 - 0.35rem) !important;
-        transform: translateX(-50%) rotate(180deg) !important;
-        border-width: 0.5rem !important;
-        border-style: solid;
-        border-color: transparent transparent var(--footer-line-red) transparent;
-      }
-    .footer-line-color-red::after {
-      border-color: transparent transparent var(--footer-line-red) transparent;
-    }
-    .footer-line-color-green::after {
-      border-color: transparent transparent var(--footer-line-green) transparent;
-    }
-    .footer-line-color-yellow::after {
-      border-color: transparent transparent var(--footer-line-yellow) transparent;
-    }
-    .footer-line-color-blue::after {
-      border-color: transparent transparent var(--footer-line-blue) transparent;
-    }
-  }
-  
+
+
   /* ==========================================================================
   Tablet Styles
   ========================================================================== */
